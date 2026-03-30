@@ -2,8 +2,8 @@ name: ランナーズラボ 自動記事生成
 
 on:
   schedule:
-    - cron: '0 20 * * *'
-    - cron: '0 8 * * *'
+    # 毎日 JST 12:00 (UTC 3:00)
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
