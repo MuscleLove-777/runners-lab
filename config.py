@@ -34,8 +34,8 @@ ARTICLES_PER_DAY = 2
 SCHEDULE_HOURS = [5, 17]
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-2.0-flash"
-GEMINI_FALLBACK_MODEL = "gemini-2.0-flash-lite"
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_FALLBACK_MODEL = "gemini-2.5-flash-lite"
 
 ENABLE_SEO_OPTIMIZATION = True
 MIN_SEO_SCORE = 70
